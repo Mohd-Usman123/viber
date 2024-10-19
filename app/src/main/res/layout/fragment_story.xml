@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StoryFragment"
+    android:orientation="vertical"
+    android:padding="10sp"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stories"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:fontFamily="cursive"
+
+        ></TextView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50sp"
+            android:layout_height="50sp"
+            android:src="@drawable/us"
+            android:id="@+id/img_mystoryicon"
+            ></de.hdodenhof.circleimageview.CircleImageView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Status"
+            android:layout_toRightOf="@id/img_mystoryicon"
+            android:layout_marginLeft="10sp"
+            android:id="@+id/text_mystatus"
+            ></TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tap To Add Your Story Update"
+            android:layout_toRightOf="@id/img_mystoryicon"
+            android:layout_below="@id/text_mystatus"
+            android:textSize="10sp"
+            android:textColor="@color/grey"
+            android:layout_marginLeft="10sp"
+            android:layout_marginTop="5dp"
+            ></TextView>
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recent Updates"
+        android:textSize="15sp"
+        android:textColor="@color/black"
+        android:fontFamily="cursive"
+        android:layout_marginTop="15sp"
+        ></TextView>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15sp"
+        android:id="@+id/recycler_userstory"
+        ></androidx.recyclerview.widget.RecyclerView>
+
+
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="10sp"
+        android:background="#bbffbb"
+        android:layout_gravity="right"
+        android:maxWidth="150sp"
+        android:layout_margin="10sp"
+        android:elevation="10sp"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello friend!"
+        android:id="@+id/text_sendermsg"
+        android:maxWidth="200sp"
+        android:layout_alignParentTop="true">
+    </TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5:30"
+        android:textColor="#6f7071"
+        android:textSize="11sp"
+        android:id="@+id/text_sendermsgtime"
+        android:layout_alignParentRight="@id/text_sendermsg"
+        android:layout_below="@id/text_sendermsg"
+        ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2024-09-23"
+        android:textColor="#6f7071"
+        android:textSize="9sp"
+        android:id="@+id/text_sendermsgdate"
+        android:layout_alignParentRight="@id/text_sendermsgtime"
+        android:layout_below="@id/text_sendermsgtime"
+        ></TextView>
+    </RelativeLayout>
+</RelativeLayout>

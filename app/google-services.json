@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "126500012757",
+    "project_id": "viber-d55c8",
+    "storage_bucket": "viber-d55c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:126500012757:android:79e366b772557b8b37985c",
+        "android_client_info": {
+          "package_name": "com.example.viber"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAPEko4BZKgkpuQMzisSWMxZUQcEnP-64I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

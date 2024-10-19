@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.VIBER" parent="Theme.Material3.Light">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimary">@color/aqua</item>
+        <item name="colorSecondary">@color/grey</item>
+    </style>
+
+    <style name="Theme.VIBER" parent="Base.Theme.VIBER" />
+</resources>
